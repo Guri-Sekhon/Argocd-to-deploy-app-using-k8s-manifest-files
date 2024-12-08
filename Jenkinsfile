@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Checking out code from repository...'
-                git branch: 'main', url: https://github.com/Guri-Sekhon/Argocd-to-deploy-app-using-k8s-manifest-files.git
+                git branch: 'main', url: 'https://github.com/Guri-Sekhon/Argocd-to-deploy-app-using-k8s-manifest-files.git'
             }
         }
 
